@@ -1,9 +1,10 @@
 import React from "react";
 
-export function Nav() {
+export function Nav({name, text}) {
   return (
     <nav>
-      <div>NAVIGATION</div>
+      <div class="nav">{name}</div>
+      <p>{text}</p>
     </nav>
   );
 }
